@@ -1,7 +1,7 @@
 # Hi, I'm Sean 👋
 **Business Analytics MSc @ ESADE · Data Engineering · Builder**
 
-I sit at the intersection of business and technical execution. Currently finishing my MSc in Business Analytics at ESADE (Top 10%, GPA 8.84), with a background in B2B sales and a growing focus on ML pipelines, fraud detection, and agentic AI systems. I don't just analyze data — I build tools that create measurable business value.
+I sit at the intersection of business and technical execution. Currently finishing my MSc in Business Analytics at ESADE with a background in B2B sales and a growing focus on ML pipelines and agentic AI systems. 
 
 📍 Barcelona &nbsp;·&nbsp; 🌍 Raised across Shanghai, Singapore, Melbourne & Spain &nbsp;·&nbsp; 🗣️ English · Mandarin (HSK4)
 
