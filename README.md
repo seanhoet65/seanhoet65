@@ -54,13 +54,13 @@ Synthetic focus group app generating AI personas across Spanish regions — inte
 
 ## 🎯 About Me
 
-- 🎓 MSc Business Analytics @ ESADE Business & Law School *(graduating Oct 2026)*
+- 🎓 MSc Business Analytics @ ESADE *(graduating Oct 2026)*
 - 🔍 Capstone at **Comercia Global Payments (CaixaBank JV)** — redesigning fraud alerting infrastructure targeting 56%+ cost reduction across a system handling ~100K alerts/year
 - 💼 2+ years as Account Manager @ J2 Group, managing 12 B2B accounts and $40K+ monthly revenue
 - ☁️ AWS Cloud Practitioner Certification in progress *(Expected May 2026)*
 - 🌏 Lived and worked across 4 countries on 3 continents
 - 🎵 Produces and mixes original tracks on Ableton
-- 🤿 PADI-certified advanced scuba diver
+
 
 ---
 
