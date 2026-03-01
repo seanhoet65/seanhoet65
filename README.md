@@ -7,7 +7,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/seanhoet)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:seanamir.hoet@alumni.esade.edu)
 ![Barcelona](https://img.shields.io/badge/📍-Barcelona-lightgrey?style=flat-square)
-![EU Work Permit](https://img.shields.io/badge/🇪🇺-EU_Work_Permit-blue?style=flat-square)
 
 </div>
 
