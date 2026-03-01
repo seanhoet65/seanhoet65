@@ -1,78 +1,60 @@
-# Hi, I'm Sean 👋
-**Business Analytics MSc @ ESADE · Data Engineering · Builder**
+<div align="center">
 
-I sit at the intersection of business and technical execution. Currently finishing my MSc in Business Analytics at ESADE with a background in B2B sales and a growing focus on ML pipelines and agentic AI systems. 
+# Sean Hoet
 
-📍 Barcelona &nbsp;·&nbsp; 🌍 Raised across Shanghai, Singapore, Melbourne & Spain &nbsp;·&nbsp; 🗣️ English · Mandarin (HSK4)
+*Sales background. Analytics degree. Builds things in between.*
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/seanhoet)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:seanamir.hoet@alumni.esade.edu)
+![Barcelona](https://img.shields.io/badge/📍-Barcelona-lightgrey?style=flat-square)
+![EU Work Permit](https://img.shields.io/badge/🇪🇺-EU_Work_Permit-blue?style=flat-square)
 
-## 🔨 What I Build
-
-I think the best analysts are also builders. Here's what I've been working on:
-
-🧠 **[Career Bridge](https://github.com/seanhoet65/career-bridge)**
-NLP-powered CV benchmarking tool that compares your resume against real job descriptions using O\*NET occupational data — identifies skill gaps and surfaces targeted learning resources (e.g. DataCamp).
-`Python · NLP · scikit-learn · O*NET API`
-
-🏠 **Airbnb Availability Prediction**
-End-to-end ML pipeline predicting listing availability using cross-table feature engineering, TF-IDF vectorisation of listing descriptions, temporal features, and aggregated review metrics. Built with leakage controls as a deliberate design choice.
-`Python · pandas · scikit-learn · Feature Engineering`
-
-🌀 **[Strava API + AWS](https://github.com/seanhoet65/Strava_API_AWS)**
-Cloud-based fitness data pipeline integrating Strava's API with AWS infrastructure for automated ingestion, storage, and analytics.
-`Python · AWS (EC2, S3, Lambda) · REST APIs`
-
-🗺️ **Ask Spain**
-Synthetic focus group app generating AI personas across Spanish regions — interactive mapping with regional sentiment analysis. Built as a full-stack Next.js app.
-`TypeScript · Next.js · Tailwind CSS · Leaflet · Claude API`
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+MSc Business Analytics at ESADE, with a focus on ML pipelines, NLP, and agentic AI systems. Currently working with **Comercia Global Payments** (CaixaBank's card network — 470K+ merchants) on fraud detection infrastructure that processes ~100K alerts a year. The brief: redesign the alerting system, scope an agentic triage layer that routes alerts autonomously, and cut operational costs by 56%+.
 
-**Languages & ML**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
-
-**Frameworks & Tools**
-
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-
-**Data & ML**
-
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+Outside of that: building tools that I think are cool — an CV Skill-Gap Bridger, a cloud fitness pipeline, a synthetic focus group app for Spanish regional research. The projects are on this page.
 
 ---
 
-## 🎯 About Me
+## Projects
 
-- 🎓 MSc Business Analytics @ ESADE *(graduating Oct 2026)*
-- 🔍 Capstone at **Comercia Global Payments (CaixaBank JV)** — redesigning fraud alerting infrastructure targeting 56%+ cost reduction across a system handling ~100K alerts/year
-- 💼 2+ years as Account Manager @ J2 Group, managing 12 B2B accounts and $40K+ monthly revenue
-- ☁️ AWS Cloud Practitioner Certification in progress *(Expected May 2026)*
-- 🌏 Lived and worked across 4 countries on 3 continents
-- 🎵 Produces and mixes original tracks on Ableton
-
-
----
-
-## 📊 GitHub Stats
-
-![Sean's GitHub Stats](https://github-readme-stats.vercel.app/api?username=seanhoet65&show_icons=true&theme=default&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=seanhoet65&layout=compact&theme=default&hide_border=true)
+| | Project | What it actually does |
+|---|---|---|
+| 🧠 | **[Career Bridge](https://github.com/seanhoet65/career-bridge)** | NLP tool that benchmarks a CV against real job descriptions using O\*NET data — finds gaps and suggests where to close them. Built it because I kept getting vague application feedback. |
+| 🏠 | **Airbnb Availability Prediction** | End-to-end ML pipeline across listings, calendar & review data. The interesting part: cross-table feature engineering, TF-IDF on listing descriptions, and deliberate leakage controls most tutorials don't bother with. |
+| 🏃‍♂️ | **[Strava API + AWS](https://github.com/seanhoet65/Strava_API_AWS)** | Cloud pipeline routing fitness data through AWS (EC2, S3, Lambda) for automated ingestion and analytics. |
+| 🗺️ | **Ask Spain** | Generates synthetic AI personas across Spanish regions with interactive mapping and sentiment analysis. Full-stack Next.js app — built for a client research context. |
 
 ---
 
-## 📬 Let's Connect
+## Stack
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/seanhoet)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:seanamir.hoet@alumni.esade.edu)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/seanhoet65)
+```
+Languages   Python · SQL · R
+ML/Data     pandas · scikit-learn · NumPy · NLP · Feature Engineering
+Cloud       AWS (EC2, S3, Lambda) · REST APIs · Flask
+Tools       Git · Jupyter · Salesforce · HubSpot · Excel
+```
+
+AWS Cloud Practitioner Certification in progress — expected May 2026.
+
+---
+
+## Background
+
+Grew up between Belgian and Malaysian cultures, mostly in Shanghai. Went to university in Melbourne. Now based in Barcelona. Speak English natively, Mandarin at HSK4 (B2), and getting there with Spanish.
+
+Before analytics: 2+ years in sales, 6 months as a student consultant at EY on a SaaS go-to-market project. The sales background isn't a detour — understanding what clients actually need is more useful than most people give it credit for in a technical role.
+
+Outside of work: produce and mix original music in Ableton, PADI-certified advanced scuba diver. The latter has taken me to some good places.
+
+---
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=seanhoet65&show_icons=true&hide_border=true&theme=default&hide_title=true)
+
+</div>
