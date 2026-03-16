@@ -52,8 +52,4 @@ Outside of work: produce and mix original music in Ableton, PADI-certified advan
 
 ---
 
-<div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=seanhoet65&show_icons=true&hide_border=true&theme=default&hide_title=true)
-
-</div>
