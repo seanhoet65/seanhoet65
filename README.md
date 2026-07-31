@@ -13,8 +13,8 @@
 ---
 
 MSc Business Analytics at ESADE, focused on ML pipelines and agentic AI systems. Most of
-what I build ends up as something you can actually click — a deployed endpoint, a
-dashboard, a demo — because a model nobody can interact with is a hard thing to argue for.
+what I build ends up as something you can actually click — a dashboard, a demo, a chart
+that answers something — because a model nobody can interact with is hard to argue for.
 
 My capstone was a fraud-detection system for a payments company (written up below). The
 rest of the projects here are my own, and each one has a live demo or a written-up finding
@@ -26,12 +26,11 @@ rather than just a repo full of code.
 
 | | Project | What it does |
 |---|---|---|
-| 🏭 | **[Forging Line Cycle-Time Analysis](https://github.com/seanhoet65/cloud_aws_final_asnm)** | ~1.4M raw PLC sensor signals off a steel forging line → a Postgres medallion pipeline under Flyway migrations → an XGBoost model that predicts a piece's quench-bath time 18 seconds into a 58-second cycle, so a delay can be flagged while the piece is still moving. Deployed two ways: a SageMaker real-time endpoint and a containerised dashboard on ECS Fargate. |
-| 🎬 | **[MovieLens Recommender](https://github.com/seanhoet65/movielens-recommender-prototype)** · [live demo](https://movielens-recommender-prototype.streamlit.app/) | Eleven recommendation algorithms — from a random baseline up to an SVD + content-based hybrid — compared side by side on the same user. Scored on coverage, novelty, diversity and popularity bias as well as accuracy, because a recommender tuned only for accuracy just shows everyone the same popular films. Includes a filter-bubble simulation. |
-| 🎯 | **[Career Bridge](https://github.com/seanhoet65/career-bridge)** · [live demo](https://skillgapanalyzer-miba.streamlit.app/) | Scores a CV against a target role, ranks what's missing by importance, and builds a learning roadmap ordered by return per hour of study. The chat advisor is an LLM with six Python tools wired to it, so the numbers it quotes are computed rather than guessed. |
-| 🍸 | **[Bar Layout Optimisation](https://github.com/seanhoet65/bar-layout-optimisation)** | Where should a bartender put the bottles? A co-occurrence network over cocktail recipes assigns ingredients to three reach zones by centrality, then orders them within each zone by 1-D MDS. The result reads as a staffing plan: Vodka and Gin are the two most-used ingredients but share only 9 of ~85 recipes each, so they land at opposite ends of the speed rail, each pulling its own mixer family — a fast juice end and a slower vermouth end that two people can work without crossing. Written in R. |
-| 🏘️ | **[Antwerp Airbnb Analysis](https://github.com/seanhoet65/antwerp-airbnb-analysis)** | The neighbourhoods that charge the most earn the least — price and occupancy pull in opposite directions across the city (r = −0.38), and the priciest district earns roughly a fifth of the best performer. One script regenerates every chart from the raw data. |
-| 💸 | **[Talk To Your Finances](https://github.com/seanhoet65/talk_to_your_finances)** | Conversational personal-finance app, four-person team. I built the foundation and data layer — the type system, mock data, LLM client, and the context builder that assembles what the model actually sees. |
+| 🍸 | **[Bar Layout Optimisation](https://github.com/seanhoet65/bar-layout-optimisation)** | Works out where a bartender should put the bottles, by building a network of which ingredients get used together. The layout it produces doubles as a staffing plan. R. |
+| 🎬 | **[MovieLens Recommender](https://github.com/seanhoet65/movielens-recommender-prototype)** · [live demo](https://movielens-recommender-prototype.streamlit.app/) | Eleven recommendation algorithms compared side by side on the same user — scored on diversity and novelty, not just accuracy. |
+| 🎯 | **[Career Bridge](https://github.com/seanhoet65/career-bridge)** · [live demo](https://skillgapanalyzer-miba.streamlit.app/) | Scores a CV against a target role and builds a learning roadmap ranked by return per hour of study. The chat advisor calls real Python tools, so its numbers are computed rather than guessed. |
+| 💸 | **[Talk To Your Finances](https://github.com/seanhoet65/talk_to_your_finances)** · [live demo](https://talk-to-your-finances.vercel.app) | Conversational personal-finance app, four-person team. I built the data layer the LLM reasons over. |
+| 🏘️ | **[Antwerp Airbnb Analysis](https://github.com/seanhoet65/antwerp-airbnb-analysis)** | The neighbourhoods that charge the most earn the least. One script regenerates every chart from the raw data. |
 
 ---
 
@@ -70,9 +69,9 @@ analysts a plain-language interface to the scoring models.
 Languages   Python · SQL · R
 ML          XGBoost · LightGBM · CatBoost · PyTorch · scikit-learn · SHAP
 Networks    igraph · tidygraph · centrality · MDS
-Data        pandas · NumPy · PostgreSQL · Flyway · Parquet
-Apps        Streamlit · FastAPI · Plotly
-Cloud       AWS (SageMaker, ECR, ECS Fargate, S3) · Docker
+Data        pandas · NumPy · Parquet
+Apps        Streamlit · FastAPI · Plotly · LLM tool-calling
+Cloud       AWS (SageMaker, ECS Fargate, S3) · Docker
 Tooling     Git · Jupyter · uv · pytest
 ```
 
