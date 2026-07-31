@@ -69,6 +69,7 @@ analysts a plain-language interface to the scoring models.
 ```
 Languages   Python · SQL · R
 ML          XGBoost · LightGBM · CatBoost · PyTorch · scikit-learn · SHAP
+Networks    igraph · tidygraph · centrality · MDS
 Data        pandas · NumPy · PostgreSQL · Flyway · Parquet
 Apps        Streamlit · FastAPI · Plotly
 Cloud       AWS (SageMaker, ECR, ECS Fargate, S3) · Docker
